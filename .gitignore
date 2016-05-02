@@ -1,0 +1,44 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+
+
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+
+linux-build/CMakeFiles/*
+win-mingw-build/CMakeFiles/*
+win-vs-build/CMakeFiles/*
+win-vs-build/gtest.dir/*
+win-vs-build/gtest_main.dir/*
+win-vs-build/videoplayer.dir/*
+win-vs-build/videoplayer_settings.dir/*
+win-vs-build/VideoplayerProject_impl.dir/*
+win-vs-build/VideoplayerProject_test.dir/*
+win-vs-build/Win32/*
